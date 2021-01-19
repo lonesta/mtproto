@@ -10287,7 +10287,7 @@ func (c *Client) ChannelsDeleteChannel(params *ChannelsDeleteChannelParams) (Upd
 type ChannelsExportMessageLinkParams struct {
 	Channel InputChannel `validate:"required"`
 	Id      int32        `validate:"required"`
-	Grouped bool         `validate:"required"`
+	Grouped bool
 }
 
 func (e *ChannelsExportMessageLinkParams) CRC() uint32 {
