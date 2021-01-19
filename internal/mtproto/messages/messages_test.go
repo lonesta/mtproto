@@ -4,9 +4,9 @@ import (
 	"encoding/hex"
 	"testing"
 
+	. "github.com/lonesta/mtproto/internal/mtproto/messages"
 	"github.com/stretchr/testify/assert"
 	"github.com/xelaj/go-dry"
-	. "github.com/xelaj/mtproto/internal/mtproto/messages"
 )
 
 type DummyClient struct {

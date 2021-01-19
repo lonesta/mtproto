@@ -1,7 +1,7 @@
 // Copyright (c) 2020 KHS Films
 //
 // This file is a part of mtproto package.
-// See https://github.com/xelaj/mtproto/blob/master/LICENSE for details
+// See https://github.com/lonesta/mtproto/blob/master/LICENSE for details
 
 package tl_test
 
@@ -11,8 +11,8 @@ import (
 	"github.com/k0kubun/pp"
 	"github.com/xelaj/go-dry"
 
+	"github.com/lonesta/mtproto/encoding/tl"
 	"github.com/stretchr/testify/assert"
-	"github.com/xelaj/mtproto/encoding/tl"
 )
 
 type any = interface{}

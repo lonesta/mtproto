@@ -1,9 +1,9 @@
 # {{ .Project.Name }}
 
 ![help wanted](https://img.shields.io/badge/-help%20wanted-success)
-[![godoc reference](https://pkg.go.dev/badge/github.com/xelaj/mtproto?status.svg)](https://pkg.go.dev/github.com/xelaj/mtproto)
-[![Go Report Card](https://goreportcard.com/badge/github.com/xelaj/mtproto)](https://goreportcard.com/report/github.com/xelaj/mtproto)
-[![license MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/xelaj/mtproto/blob/master/README.md)
+[![godoc reference](https://pkg.go.dev/badge/github.com/lonesta/mtproto?status.svg)](https://pkg.go.dev/github.com/lonesta/mtproto)
+[![Go Report Card](https://goreportcard.com/badge/github.com/lonesta/mtproto)](https://goreportcard.com/report/github.com/lonesta/mtproto)
+[![license MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/lonesta/mtproto/blob/master/README.md)
 [![chat telegram](https://img.shields.io/badge/chat-telegram-0088cc)](https://bit.ly/2xlsVsQ)
 ![version v0.1.0](https://img.shields.io/badge/version-v0.1.0-red)
 ![unstable](https://img.shields.io/badge/stability-unstable-yellow)

@@ -200,7 +200,7 @@ func GenerateMethods(file *jen.File, data *FileStructure) error {
 		}
 
 		calls = append(calls,
-			jen.Id("buf").Op(":=").Qual("github.com/xelaj/mtproto/serialize", "NewEncoder").Call(),
+			jen.Id("buf").Op(":=").Qual("github.com/lonesta/mtproto/serialize", "NewEncoder").Call(),
 			jen.Id("buf.PutUint").Call(jen.Id("e.CRC").Call()),
 		)
 

@@ -7,7 +7,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/xelaj/mtproto/serialize"
+	"github.com/lonesta/mtproto/serialize"
 )
 
 const (

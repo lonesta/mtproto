@@ -185,7 +185,7 @@ func GenerateStructDefinition(def *StructObject, implements []string, data *File
 	}
 
 	calls = append(calls,
-		jen.Id("buf").Op(":=").Qual("github.com/xelaj/mtproto", "NewEncodeBuf").Call(jen.Lit(512)),
+		jen.Id("buf").Op(":=").Qual("github.com/lonesta/mtproto", "NewEncodeBuf").Call(jen.Lit(512)),
 		jen.Id("buf.PutUint").Call(jen.Id("e.CRC").Call()),
 	)
 
@@ -276,7 +276,7 @@ func GenerateStructDefinition(def *StructObject, implements []string, data *File
 	}
 
 	// DecodeFrom(d *mtproto.Decoder)
-	f = jen.Func().Params(jen.Id("e").Id("*" + interfaceName)).Id("DecodeFrom").Params(jen.Id("buf").Op("*").Qual("github.com/xelaj/mtproto", "Decoder")).Block(
+	f = jen.Func().Params(jen.Id("e").Id("*" + interfaceName)).Id("DecodeFrom").Params(jen.Id("buf").Op("*").Qual("github.com/lonesta/mtproto", "Decoder")).Block(
 		calls...,
 	)
 	total = append(total, f, jen.Line())

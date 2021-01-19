@@ -10,9 +10,9 @@ import (
 	"github.com/pkg/errors"
 	"github.com/xelaj/go-dry"
 
-	ige "github.com/xelaj/mtproto/aes_ige"
-	"github.com/xelaj/mtproto/keys"
-	"github.com/xelaj/mtproto/serialize"
+	ige "github.com/lonesta/mtproto/aes_ige"
+	"github.com/lonesta/mtproto/keys"
+	"github.com/lonesta/mtproto/serialize"
 )
 
 // https://tlgrm.ru/docs/mtproto/auth_key

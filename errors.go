@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/lonesta/mtproto/serialize"
 	"github.com/pkg/errors"
-  "github.com/xelaj/go-dry"
-  "github.com/xelaj/mtproto/serialize"
+	"github.com/xelaj/go-dry"
 )
 
 type ErrResponseCode struct {

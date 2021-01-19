@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/k0kubun/pp"
+	"github.com/lonesta/mtproto/telegram"
 	"github.com/xelaj/go-dry"
-	"github.com/xelaj/mtproto/telegram"
 )
 
 func main() {
@@ -21,5 +21,5 @@ func main() {
 	})
 	dry.PanicIfErr(err)
 
-	pp.Println(client.MessagesGetAllChats(&telegram.MessagesGetAllChatsParams{ExceptIds:[]int32{}}))
+	pp.Println(client.MessagesGetAllChats(&telegram.MessagesGetAllChatsParams{ExceptIds: []int32{}}))
 }

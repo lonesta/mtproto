@@ -6,10 +6,10 @@ import (
 	"reflect"
 
 	validator "github.com/go-playground/validator"
+	serialize "github.com/lonesta/mtproto/serialize"
 	errors "github.com/pkg/errors"
 	zero "github.com/vikyd/zero"
 	dry "github.com/xelaj/go-dry"
-	serialize "github.com/xelaj/mtproto/serialize"
 )
 
 type AuthSendCodeParams struct {
@@ -3760,14 +3760,14 @@ func (c *Client) MessagesGetDialogs(params *MessagesGetDialogsParams) (MessagesD
 }
 
 type MessagesGetHistoryParams struct {
-	Peer       InputPeer 
-	OffsetId   int32     
-	OffsetDate int32     
-	AddOffset  int32     
-	Limit      int32     
-	MaxId      int32     
-	MinId      int32     
-	Hash       int32     
+	Peer       InputPeer
+	OffsetId   int32
+	OffsetDate int32
+	AddOffset  int32
+	Limit      int32
+	MaxId      int32
+	MinId      int32
+	Hash       int32
 }
 
 func (e *MessagesGetHistoryParams) CRC() uint32 {

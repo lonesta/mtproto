@@ -9,11 +9,11 @@ import (
 	"time"
 
 	"github.com/k0kubun/pp"
+	"github.com/lonesta/mtproto/serialize"
+	"github.com/lonesta/mtproto/utils"
 	"github.com/pkg/errors"
 	"github.com/xelaj/errs"
 	"github.com/xelaj/go-dry"
-	"github.com/xelaj/mtproto/serialize"
-	"github.com/xelaj/mtproto/utils"
 )
 
 func (m *MTProto) sendPacketNew(request serialize.TL, expectVector reflect.Type) (chan serialize.TL, error) {

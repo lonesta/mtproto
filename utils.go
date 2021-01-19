@@ -1,7 +1,7 @@
 package mtproto
 
 import (
-	"github.com/xelaj/mtproto/serialize"
+	"github.com/lonesta/mtproto/serialize"
 )
 
 // это неофициальная информация, но есть подозрение, что список датацентров АБСОЛЮТНО идентичный для всех

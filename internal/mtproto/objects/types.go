@@ -1,7 +1,7 @@
 // Copyright (c) 2020 KHS Films
 //
 // This file is a part of mtproto package.
-// See https://github.com/xelaj/mtproto/blob/master/LICENSE for details
+// See https://github.com/lonesta/mtproto/blob/master/LICENSE for details
 
 package objects
 
@@ -14,7 +14,7 @@ import (
 	"reflect"
 
 	"github.com/k0kubun/pp"
-	"github.com/xelaj/mtproto/encoding/tl"
+	"github.com/lonesta/mtproto/encoding/tl"
 )
 
 // TYPES
@@ -47,7 +47,6 @@ type ServerDHParams interface {
 	tl.Object
 	ImplementsServerDHParams()
 }
-
 
 type ServerDHParamsFail struct {
 	Nonce        *tl.Int128
@@ -180,7 +179,7 @@ func (*RpcError) CRC() uint32 {
 	return 0x2144ca19
 }
 
-type RpcDropAnswer interface{
+type RpcDropAnswer interface {
 	tl.Object
 	ImplementsRpcDropAnswer()
 }
@@ -428,7 +427,6 @@ func (*MsgsStateReq) CRC() uint32 {
 	return 0xda69fb52
 
 }
-
 
 type MsgsStateInfo struct {
 	ReqMsgId int64

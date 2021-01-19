@@ -199,7 +199,7 @@ func GenerateSpecificStructs(file *jen.File, data *FileStructure) error {
 		}
 
 		calls = append(calls,
-			jen.Id("buf").Op(":=").Qual("github.com/xelaj/mtproto/serialize", "NewEncoder").Call(),
+			jen.Id("buf").Op(":=").Qual("github.com/lonesta/mtproto/serialize", "NewEncoder").Call(),
 			jen.Id("buf.PutUint").Call(jen.Id("e.CRC").Call()),
 		)
 
@@ -294,7 +294,7 @@ func GenerateSpecificStructs(file *jen.File, data *FileStructure) error {
 		//* }
 		//*
 		//* // DecodeFrom(d *serialize.Decoder)
-		//* f = jen.Func().Params(jen.Id("e").Id("*" + interfaceName)).Id("DecodeFrom").Params(jen.Id("buf").Op("*").Qual("github.com/xelaj/mtproto", "Decoder")).Block(
+		//* f = jen.Func().Params(jen.Id("e").Id("*" + interfaceName)).Id("DecodeFrom").Params(jen.Id("buf").Op("*").Qual("github.com/lonesta/mtproto", "Decoder")).Block(
 		//* 	calls...,
 		//* )
 		//*

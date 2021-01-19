@@ -12,7 +12,7 @@ import (
 func GenerateInterfaces(file *jen.File, data *FileStructure) error {
 	for i, structs := range data.Types {
 		t := jen.Type().Id(normalizeID(i, true)).Interface(
-			jen.Qual("github.com/xelaj/mtproto/serialize", "TL"),
+			jen.Qual("github.com/lonesta/mtproto/serialize", "TL"),
 			jen.Id("Implements"+normalizeID(i, true)).Params(),
 		)
 		file.Add(t)
@@ -197,7 +197,7 @@ func GenerateInterfaces(file *jen.File, data *FileStructure) error {
 			}
 
 			calls = append(calls,
-				jen.Id("buf").Op(":=").Qual("github.com/xelaj/mtproto/serialize", "NewEncoder").Call(),
+				jen.Id("buf").Op(":=").Qual("github.com/lonesta/mtproto/serialize", "NewEncoder").Call(),
 				jen.Id("buf.PutUint").Call(jen.Id("e.CRC").Call()),
 			)
 

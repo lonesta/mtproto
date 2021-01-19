@@ -4,9 +4,9 @@ package telegram
 
 import (
 	validator "github.com/go-playground/validator"
+	serialize "github.com/lonesta/mtproto/serialize"
 	zero "github.com/vikyd/zero"
 	dry "github.com/xelaj/go-dry"
-	serialize "github.com/xelaj/mtproto/serialize"
 )
 
 type CdnConfig struct {

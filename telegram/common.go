@@ -9,9 +9,9 @@ import (
 	"github.com/xelaj/errs"
 	dry "github.com/xelaj/go-dry"
 
-	"github.com/xelaj/mtproto"
-	"github.com/xelaj/mtproto/keys"
-	"github.com/xelaj/mtproto/serialize"
+	"github.com/lonesta/mtproto"
+	"github.com/lonesta/mtproto/keys"
+	"github.com/lonesta/mtproto/serialize"
 )
 
 type Client struct {

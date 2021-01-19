@@ -2,7 +2,7 @@
 package telegram
 
 import (
-	"github.com/xelaj/mtproto/serialize"
+	"github.com/lonesta/mtproto/serialize"
 )
 
 const (

@@ -8,10 +8,10 @@ import (
 	"io/ioutil"
 	"math/big"
 
+	"github.com/lonesta/mtproto/serialize"
 	"github.com/pkg/errors"
 	"github.com/xelaj/errs"
 	"github.com/xelaj/go-dry"
-	"github.com/xelaj/mtproto/serialize"
 )
 
 // RSAFingerprint вычисляет отпечаток ключа

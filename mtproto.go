@@ -13,8 +13,8 @@ import (
 	"github.com/xelaj/errs"
 	"github.com/xelaj/go-dry"
 
-	"github.com/xelaj/mtproto/serialize"
-	"github.com/xelaj/mtproto/utils"
+	"github.com/lonesta/mtproto/serialize"
+	"github.com/lonesta/mtproto/utils"
 )
 
 type MTProto struct {

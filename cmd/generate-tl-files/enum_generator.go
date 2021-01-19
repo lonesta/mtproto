@@ -59,7 +59,7 @@ func GenerateSpecificEnum(enumType string, enumValues []*EnumObject) []jen.Code 
 
 	// Ecncode() []byte
 	f = jen.Func().Params(jen.Id("e").Id(typeId)).Id("Encode").Params().Index().Byte().Block(
-		jen.Id("buf").Op(":=").Qual("github.com/xelaj/mtproto/serialize", "NewEncoder").Call(),
+		jen.Id("buf").Op(":=").Qual("github.com/lonesta/mtproto/serialize", "NewEncoder").Call(),
 		jen.Id("buf.PutCRC").Call(jen.Uint32().Call(jen.Id("e"))),
 		jen.Line(),
 		jen.Return(jen.Id("buf.Result").Call()),

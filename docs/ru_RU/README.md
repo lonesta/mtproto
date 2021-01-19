@@ -1,9 +1,9 @@
 # MTProto
 
 ![help wanted](https://img.shields.io/badge/-help%20wanted-success)
-[![godoc reference](https://pkg.go.dev/badge/github.com/xelaj/mtproto?status.svg)](https://pkg.go.dev/github.com/xelaj/mtproto)
-[![Go Report Card](https://goreportcard.com/badge/github.com/xelaj/mtproto)](https://goreportcard.com/report/github.com/xelaj/mtproto)
-[![license MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/xelaj/mtproto/blob/master/README.md)
+[![godoc reference](https://pkg.go.dev/badge/github.com/lonesta/mtproto?status.svg)](https://pkg.go.dev/github.com/lonesta/mtproto)
+[![Go Report Card](https://goreportcard.com/badge/github.com/lonesta/mtproto)](https://goreportcard.com/report/github.com/lonesta/mtproto)
+[![license MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/lonesta/mtproto/blob/master/README.md)
 [![chat telegram](https://img.shields.io/badge/chat-telegram-0088cc)](https://bit.ly/2xlsVsQ)
 ![version v0.1.0](https://img.shields.io/badge/version-v0.1.0-red)
 ![unstable](https://img.shields.io/badge/stability-unstable-yellow)
@@ -18,7 +18,7 @@ gitlab pipelines
 ![FINALLY!](/docs/assets/finally.jpg) Полностью нативная имплементация MTProto на Golang!
 
 
-[english](https://github.com/xelaj/mtproto/blob/master/docs/en_US/README.md) **русский**
+[english](https://github.com/lonesta/mtproto/blob/master/docs/en_US/README.md) **русский**
 
 <p align="center">
 <img src="/docs/assets/MuffinMan-AgADRAADO2AkFA.gif"/>
@@ -107,9 +107,9 @@ func main() {
 
 Вам не стоит задумываться о реализации шифрования, обмена ключами, сохранении и восстановлении сессии, все уже сделано за вас.
 
-**Code examples are [here](https://github.com/xelaj/mtproto/blob/master/examples)**
+**Code examples are [here](https://github.com/lonesta/mtproto/blob/master/examples)**
 
-**Full docs are [here](https://pkg.go.dev/github.com/xelaj/mtproto)**
+**Full docs are [here](https://pkg.go.dev/github.com/lonesta/mtproto)**
 
 ## Getting started
 
@@ -118,13 +118,13 @@ func main() {
 Все как обычно, вам необходимо загрузить пакет с помощью `go get`:
 
 ``` bash
-go get github.com/xelaj/mtproto
+go get github.com/lonesta/mtproto
 ```
 
 Далее по желанию вы можете заново сгенерировать исходники структур методов и функций, для этого используйте команду `go generate`
 
 ``` bash
-go generate github.com/xelaj/mtproto
+go generate github.com/lonesta/mtproto
 ```
 
 Все! Больше ничего и не надо!
@@ -150,7 +150,7 @@ go generate github.com/xelaj/mtproto
 
 ### Как произвести авторизацию по телефону?
 
-**Пример [здесь](https://github.com/xelaj/mtproto/blob/master/examples/auth)**
+**Пример [здесь](https://github.com/lonesta/mtproto/blob/master/examples/auth)**
 
 ```go
 func AuthByPhone() {
@@ -189,7 +189,7 @@ func AuthByPhone() {
 
 ## Contributing
 
-Please read [contributing guide](https://github.com/xelaj/mtproto/blob/master/doc/en_US/CONTRIBUTING.md) if you want to help. And the help is very necessary!
+Please read [contributing guide](https://github.com/lonesta/mtproto/blob/master/doc/en_US/CONTRIBUTING.md) if you want to help. And the help is very necessary!
 
 ## TODO
 
@@ -203,4 +203,4 @@ Please read [contributing guide](https://github.com/xelaj/mtproto/blob/master/do
 
 <b style="color:red">WARNING!</b> This project is only maintained by Xelaj inc., however copyright of this source code **IS NOT** owned by Xelaj inc. at all. If you want to connect with code owners, write mail to <a href="mailto:up@khsfilms.ru">this email</a>. For all other questions like any issues, PRs, questions, etc. Use GitHub issues, or find email on official website.
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/xelaj/mtproto/blob/master/doc/en_US/LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/lonesta/mtproto/blob/master/doc/en_US/LICENSE.md) file for details

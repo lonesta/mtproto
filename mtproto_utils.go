@@ -6,8 +6,8 @@ import (
 
 	"github.com/xelaj/go-dry"
 
-	"github.com/xelaj/mtproto/serialize"
-	"github.com/xelaj/mtproto/utils"
+	"github.com/lonesta/mtproto/serialize"
+	"github.com/lonesta/mtproto/utils"
 )
 
 // мелкие методы, которые сделаны для понимания алгоритмов и кода вцелом

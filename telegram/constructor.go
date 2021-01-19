@@ -5,8 +5,8 @@ package telegram
 import (
 	"fmt"
 
+	serialize "github.com/lonesta/mtproto/serialize"
 	"github.com/xelaj/errs"
-	serialize "github.com/xelaj/mtproto/serialize"
 )
 
 func GenerateStructByConstructor(constructorID uint32) (object serialize.TL, isEnum bool, err error) {

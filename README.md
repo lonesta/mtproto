@@ -1,9 +1,9 @@
 # MTProto
 
-[![godoc reference](https://pkg.go.dev/badge/github.com/xelaj/mtproto?status.svg)](https://pkg.go.dev/github.com/xelaj/mtproto)
-[![Go Report Card](https://goreportcard.com/badge/github.com/xelaj/mtproto)](https://goreportcard.com/report/github.com/xelaj/mtproto)
-[![codecov](https://codecov.io/gh/xelaj/mtproto/branch/master/graph/badge.svg)](https://codecov.io/gh/xelaj/mtproto)
-[![license MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/xelaj/mtproto/blob/master/README.md)
+[![godoc reference](https://pkg.go.dev/badge/github.com/lonesta/mtproto?status.svg)](https://pkg.go.dev/github.com/lonesta/mtproto)
+[![Go Report Card](https://goreportcard.com/badge/github.com/lonesta/mtproto)](https://goreportcard.com/report/github.com/lonesta/mtproto)
+[![codecov](https://codecov.io/gh/lonesta/mtproto/branch/master/graph/badge.svg)](https://codecov.io/gh/lonesta/mtproto)
+[![license MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/lonesta/mtproto/blob/master/README.md)
 [![chat telegram](https://img.shields.io/badge/chat-telegram-0088cc)](https://bit.ly/2xlsVsQ)
 ![version v0.5.0](https://img.shields.io/badge/version-v0.5.0-yellow)
 ![unstable](https://img.shields.io/badge/stability-unstable-yellow)
@@ -15,9 +15,9 @@ gitlab pipelines
 
 ![FINALLY!](docs/assets/finally.jpg) Full-native implementation of MTProto protocol on Golang!
 
-### We are hardly working on [v1.0-rc relase candidate branch](https://github.com/xelaj/mtproto/pull/45), you can leave a feedback! 
+### We are hardly working on [v1.0-rc relase candidate branch](https://github.com/lonesta/mtproto/pull/45), you can leave a feedback! 
 
-**english** [русский](https://github.com/xelaj/mtproto/blob/master/docs/ru_RU/README.md)
+**english** [русский](https://github.com/lonesta/mtproto/blob/master/docs/ru_RU/README.md)
 
 <p align="center">
 <img src="https://i.ibb.co/yYsPxhW/Muffin-Man-Ag-ADRAADO2-Ak-FA.gif"/>
@@ -106,9 +106,9 @@ func main() {
 
 You do not need to think about encryption, key exchange, saving and restoring session, and more routine things. It is already implemented just for you.
 
-**Code examples are [here](https://github.com/xelaj/mtproto/blob/master/examples)**
+**Code examples are [here](https://github.com/lonesta/mtproto/blob/master/examples)**
 
-**Full docs are [here](https://pkg.go.dev/github.com/xelaj/mtproto)**
+**Full docs are [here](https://pkg.go.dev/github.com/lonesta/mtproto)**
 
 ## Getting started
 
@@ -117,13 +117,13 @@ You do not need to think about encryption, key exchange, saving and restoring se
 Installation is simple. Just do `go get`:
 
 ``` bash
-go get github.com/xelaj/mtproto
+go get github.com/lonesta/mtproto
 ```
 
 After that you can generate source structures of methods and functions if you wish to. To do it, use `go generate`
 
 ``` bash
-go generate github.com/xelaj/mtproto
+go generate github.com/lonesta/mtproto
 ```
 
 That's it! You don't need to do anything more!
@@ -150,7 +150,7 @@ Why? We don't know! This method is described in Telegram API docs, any other sta
 
 ### How to use phone authorization?
 
-**Example [here](https://github.com/xelaj/mtproto/blob/master/examples/auth)**
+**Example [here](https://github.com/lonesta/mtproto/blob/master/examples/auth)**
 
 
 ```go
@@ -192,7 +192,7 @@ Technically — yes. In practice — components don't require specific architect
 
 ## Contributing
 
-Please read [contributing guide](https://github.com/xelaj/mtproto/blob/master/docs/en_US/CONTRIBUTING.md) if you want to help. And the help is very necessary!
+Please read [contributing guide](https://github.com/lonesta/mtproto/blob/master/docs/en_US/CONTRIBUTING.md) if you want to help. And the help is very necessary!
 
 ## TODO
 
@@ -224,4 +224,4 @@ Please read [contributing guide](https://github.com/xelaj/mtproto/blob/master/do
 
 **WARNING!** This project is only maintained by Xelaj inc., however copyright of this source code **IS NOT** owned by Xelaj inc. at all. If you want to connect with code owners, write mail to <a href="mailto:up@khsfilms.ru">this email</a>. For all other questions like any issues, PRs, questions, etc. Use GitHub issues, or find email on official website.
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/xelaj/mtproto/blob/master/LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/lonesta/mtproto/blob/master/LICENSE.md) file for details

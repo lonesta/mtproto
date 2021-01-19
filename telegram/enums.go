@@ -2,7 +2,7 @@
 
 package telegram
 
-import serialize "github.com/xelaj/mtproto/serialize"
+import serialize "github.com/lonesta/mtproto/serialize"
 
 type BaseTheme uint32
 

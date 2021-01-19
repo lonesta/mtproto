@@ -4,8 +4,8 @@ import (
 	"sort"
 
 	"github.com/k0kubun/pp"
+	"github.com/lonesta/mtproto/telegram"
 	"github.com/xelaj/go-dry"
-	"github.com/xelaj/mtproto/telegram"
 )
 
 func main() {

@@ -10,8 +10,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/xelaj/go-dry"
 
-	ige "github.com/xelaj/mtproto/internal/aes_ige"
-	"github.com/xelaj/mtproto/utils"
+	ige "github.com/lonesta/mtproto/internal/aes_ige"
+	"github.com/lonesta/mtproto/utils"
 )
 
 // CommonMessage это сообщение (зашифрованое либо открытое) которыми общаются между собой клиент и сервер
