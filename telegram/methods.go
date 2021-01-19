@@ -3760,14 +3760,14 @@ func (c *Client) MessagesGetDialogs(params *MessagesGetDialogsParams) (MessagesD
 }
 
 type MessagesGetHistoryParams struct {
-	Peer       InputPeer `validate:"required"`
-	OffsetId   int32     `validate:"required"`
-	OffsetDate int32     `validate:"required"`
-	AddOffset  int32     `validate:"required"`
-	Limit      int32     `validate:"required"`
-	MaxId      int32     `validate:"required"`
-	MinId      int32     `validate:"required"`
-	Hash       int32     `validate:"required"`
+	Peer       InputPeer 
+	OffsetId   int32     
+	OffsetDate int32     
+	AddOffset  int32     
+	Limit      int32     
+	MaxId      int32     
+	MinId      int32     
+	Hash       int32     
 }
 
 func (e *MessagesGetHistoryParams) CRC() uint32 {
